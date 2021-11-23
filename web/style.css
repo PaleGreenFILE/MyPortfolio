@@ -65,3 +65,17 @@ nav ul li a{
   letter-spacing: 2px;
 
 }
+.fa{
+  animation: 2s ease-in 1s infinite alternate goRight;
+  width: 40px;
+  height: 20px;
+}
+
+@keyframes goRight{
+  0% {
+transform: rotate(0deg);
+  }
+  100%{
+transform: rotate(20deg);
+  }
+}
