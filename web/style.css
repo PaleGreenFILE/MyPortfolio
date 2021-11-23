@@ -27,12 +27,23 @@ header{
 
 }
 .logo{
+  animation: 3s ease-in 1s infinite alternate goLeft;
   position: fixed;
   float: left;
   margin: 16px 36px;
   color: white;
   font-weight: bold;
   font-size: 24 px;
+  letter-spacing: 2px;
+}
+
+@keyframes goLeft{
+  0% {
+    transform:  translate(0px) rotateY(10deg); 
+   }
+  100%{
+    transform: translate(0px) rotateY(50deg);
+  }
 }
 nav{
   position: fixed;
